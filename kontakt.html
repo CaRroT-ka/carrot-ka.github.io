@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Podwodne tajemnice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="body">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Strona Główna</a>
+                </li>
+                <li>
+                    <a href="galeria.html">Galeria</a>
+                    <ul>
+                        <li><a href="zabytki.html">Zabytki</a></li>
+                    </ul>
+                </li>
+                <li><a class="active" href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>SKONTAKTUJ SIĘ Z NAMI</h1>
+        </header>
+        <div id="content">
+            <section>
+                <h2>Wyraź swoją opinię lub opisz swoją historię</h2>
+                <div id="ankieta">
+                    <form action="/action.php">
+                        Imie:
+                        <input type="text" name="name"/><br />
+                        Nazwisko:
+                        <input type="text" name="name"/><br />
+                        E-mail:
+                        <input type="text" name="email"/><br />
+                        Płeć:
+                        <input type="radio" name="gender" id="male" value="mele" />
+                        <label for="male">mężczyzna</label>
+                        <input type="radio" name="gender" id="femele" value="femele" />
+                        <label for="femele">kobieta</label>
+                        <input type="radio" name="gender" id="none" value="none" />
+                        <label for="none">wolę nie mówić</label>
+                        <br />
+                        Czy jesteś pełnoletni/a?:
+                        <input type="checkbox" name="tak" value="tak" />tak
+                        <input type="checkbox" name="nie" value="nie" />nie<br />
+                        Co wolisz?:
+                        <select>
+                            <option>Nurkowanie</option>
+                            <option>Snokerling</option>
+                            <option>Nie lubię wody</option>
+                        </select><br />
+                        <textarea rows="7" cols="40">Coś ciekawego....</textarea><br />
+                        <input type="submit" value="Wyślij" />
+                        <input type="reset" />
+                    </form>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+                        <ellipse cx="100" cy="100" rx="40" ry="20"/>
+                        <polygon points="140,100 170,130 170,70"/>
+                        <circle cx="85" cy="90" r="5"/>
+                        <circle cx="85" cy="110" r="5"/>
+                        <polygon points="110,80 120,60 130,80"/>
+                        <polygon points="110,120 120,140 130,120" />
+                    </svg>
+                </div>
+        </section>
+    </div>
+        <footer> Daria Wilde, 198044</footer>
+        </div>
+</body>
+</html>
+
